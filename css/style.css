@@ -1,0 +1,195 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* UTILITIES */
+.dashed {
+    border: 3px dashed black;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex {
+    display: flex;
+}
+
+.mar-auto {
+    margin: 0 auto;
+}
+
+
+/* CONTAINER */
+.container {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    max-width: 1180px;
+}
+
+
+/* TAG */
+li {
+    list-style: none;
+}
+
+ul.flex {
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* COMMON */
+.second-section,
+.fourth-section {
+    background-color: #FFFFFF;
+}
+
+.third-section,
+.fifth-section {
+    background-color: #D3D3D3;
+}
+
+.signup-btn,
+.footer-logo {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #F08080;
+}
+
+
+/* HEADER */
+.header-bar {
+    font-size: 20px;
+    background-color: #ADD8E6;
+
+}
+
+/* Logo-side */
+.logo-side,
+.login-side {
+    width: 20%;
+}
+
+/* Middle section */
+.middle-section {
+    flex-grow: 2;
+    flex-direction: row;
+}
+
+/* login-side */
+.login-side {
+    text-align: end;
+}
+
+/* Padding */
+.login-side,
+.middle-section,
+.logo-side {
+    padding: 20px;
+    background-color: #DAA520;
+    color: white;
+}
+
+
+/* MAIN */
+
+/* FIRST SECTION */
+.first-section {
+    /* debug */
+    /* height: 600px; */
+    background-color: #00008B;
+}
+
+.first-box {
+    width: 1100px;
+    min-height: 600px;
+    background-color: #EE82EE;
+}
+
+/* SECOND SECTION */
+
+/* left-box */
+.left-box {
+    width: 70%;
+    min-height: 600px;
+    background-color: #1E90FF;
+}
+
+.right-box {
+    flex-grow: 1;
+    min-height: 600px;
+    background-color: #FFC0CB;
+}
+
+/* FIFTH SECTION */
+.rectangle {
+    width: 100%;
+    min-height: 800px;
+    background-color: #228B22;
+}
+
+
+
+/* FOOTER */
+.footer-label {
+    background-color: #23272A;
+}
+
+.box {
+    width: 25%;
+    min-height: 900px;
+    background-color: #20B2AA;
+    border: 3px dashed white;
+}
+
+#pink-box {
+    width: 30%;
+    background-color: #F08080;
+    border: 3px dashed black;
+
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.signup-section {
+    width: 100%;
+    min-height: 100px;
+    background-color: #7FFFD4;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.ftr-container {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+
+
