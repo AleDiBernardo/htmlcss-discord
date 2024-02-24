@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.container img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     font-family: monospace;
     font-size: 25px;
@@ -16,10 +21,6 @@ body {
 .dashed {
     border: 3px dashed black;
 }
-
-/* .space-btw {
-    justify-content: space-between;
-} */
 
 .row-reverse {
     flex-direction: row-reverse;
@@ -37,9 +38,12 @@ body {
 .container {
     width: 60%;
     justify-content: center;
-    /* align-items: center; */
     padding: 30px 0;
+    column-gap: 50px;
+    
 }
+
+
 
 
 /* TAG */
@@ -60,15 +64,19 @@ p {
     line-height: 40px;
 }
 
+.item-paragraph {
+    color: black;
+}
+
 /* COMMON */
-.second-item-section,
+.first-item-section,
 .third-item-section {
     background-color: #FFFFFF;
 }
 
 .second-item-section,
 .big-item-section {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .signup-btn,
@@ -76,7 +84,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #F08080;
+    /* background-color: #F08080; */
 }
 
 
@@ -88,7 +96,7 @@ p {
 }
 
 .header-ctn {
-    width: 85%;
+    width: 70%;
     max-width: 2000px;
 }
 
@@ -157,33 +165,21 @@ p {
     padding-bottom: 30px;
 }
 
+.hero-container {
+    width: 50%;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 30px 0;
+}
+
 /* FIRST ITEM SECTION */
 
-/* left-box */
-.left-box {
-    width: 70%;
-    /* min-height: 600px; */
-    /* background-color: #1E90FF; */
-    /* background-repeat: no-repeat;
-    background-size: contain; */
-}
-
-.right-box {
-    flex-grow: 1;
-    /* min-height: 600px; */
-    /* background-color: #FFC0CB; */
-}
-
-.secnd-sec-title {
+.item-title {
     color: black;
     font-size: 50px;
     padding: 30px 0;
     font-weight: bold;
 }
-.secnd-sec-box p {
-    color: black;
-}
-
 
 /* FIFTH SECTION */
 .rectangle {
@@ -227,7 +223,7 @@ p {
 }
 
 .ftr-container {
-    width: 80%;
+    width: 70%;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
@@ -235,20 +231,32 @@ p {
 
 /* Bottoni */
 
-.white-btn {
-    background-color: white;
-    padding: 10px 20px;
+.white-btn,
+.black-btn,
+.login-btn {
+    padding: 20px 30px;
     border-radius: 30px;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+
+.login-btn,
+.white-btn {
+    background-color: white;
     color: black;
 }
 
+
+
+.login-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+
 .black-btn {
     background-color: black;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-    font-size: 1.2rem;
     color: white;
 }
+
