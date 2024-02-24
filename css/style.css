@@ -22,12 +22,27 @@ body {
     border: 3px dashed black;
 }
 
+.p-y-120 {
+    padding: 120px 0;
+}
+
 .row-reverse {
     flex-direction: row-reverse;
 }
 
+.col-direction {
+    flex-direction: column;
+    text-align: center;
+}
+
+.col-gap {
+    column-gap: 50px;
+}
+
 .flex {
     display: flex;
+    justify-content: center;
+
 }
 
 .mar-auto {
@@ -37,14 +52,16 @@ body {
 /* CONTAINER */
 .container {
     width: 60%;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 30px 0;
-    column-gap: 50px;
-    
 }
 
 
-
+/* layover */
+/* .layover {
+    background-image: url(../img/wave.svg);
+    background-position-y: bottom;
+} */
 
 /* TAG */
 li {
@@ -77,6 +94,7 @@ p {
 .second-item-section,
 .big-item-section {
     background-color: #F6F6F6;
+    text-align: center;
 }
 
 .signup-btn,
@@ -174,12 +192,24 @@ p {
 
 /* FIRST ITEM SECTION */
 
-.item-title {
+.item-title,
+.item-subtitle {
     color: black;
     font-size: 50px;
     padding: 30px 0;
     font-weight: bold;
 }
+
+.item-subtitle {
+    font-size: 30px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    justify-content: center;
+    margin: 30px auto;
+}
+
 
 /* FIFTH SECTION */
 .rectangle {
@@ -233,7 +263,8 @@ p {
 
 .white-btn,
 .black-btn,
-.login-btn {
+.login-btn,
+.blue-btn {
     padding: 20px 30px;
     border-radius: 30px;
     border: none;
@@ -258,5 +289,19 @@ p {
 .black-btn {
     background-color: black;
     color: white;
+    
 }
 
+.blue-btn {
+    background-color: blue;
+}
+
+#stars {
+    width: 531px;
+}
+/* 
+.stars {
+    width: 531;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+} */
