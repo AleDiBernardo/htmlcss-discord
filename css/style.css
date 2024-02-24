@@ -246,8 +246,6 @@ p {
 
 .signup-section {
     width: 100%;
-    min-height: 100px;
-    background-color: #7FFFD4;
     padding: 20px;
     justify-content: space-between;
 }
@@ -287,13 +285,13 @@ p {
 
 
 .black-btn {
-    background-color: black;
+    background-color: #23272A;
     color: white;
     
 }
 
 .blue-btn {
-    background-color: blue;
+    background-color: #7289DA;
 }
 
 #stars {
