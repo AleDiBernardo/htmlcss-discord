@@ -11,7 +11,6 @@
 }
 
 body {
-    font-family: monospace;
     font-size: 25px;
     color: white;
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -45,6 +44,10 @@ body {
 
 }
 
+.line-height-60 {
+    line-height: 60px;
+}
+
 #angle-down {
     color: white;
     padding-top: 5px;
@@ -76,6 +79,11 @@ li {
 
 ul.flex {
     justify-content: space-evenly;
+}
+
+hr{ 
+    color: #7289DA;
+    width:70%;
 }
 
 a {
@@ -216,6 +224,10 @@ p {
     margin: 30px auto;
 }
 
+.col-70 .item-title {
+    font-size: 30px;
+    color: #7289DA;
+}
 
 /* FIFTH SECTION */
 .rectangle {
@@ -320,9 +332,3 @@ p {
 #stars {
     width: 531px;
 }
-/* 
-.stars {
-    width: 531;
-    background-image: url(../img/stars.svg);
-    background-repeat: no-repeat;
-} */
