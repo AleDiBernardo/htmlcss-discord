@@ -82,7 +82,7 @@ ul.flex {
 }
 
 hr{ 
-    color: #7289DA;
+    border: 1px solid #7289DA;
     width:70%;
 }
 
@@ -115,8 +115,6 @@ p {
 .footer-logo {
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    /* background-color: #F08080; */
 }
 
 
@@ -181,10 +179,8 @@ p {
 
 .hero-box {
     width: 80%;
-    /* min-height: 600px; */
     flex-direction: column;
     row-gap: 50px;
-    /* background-color: #EE82EE; */
 }
 
 .hero-btn {
@@ -200,7 +196,6 @@ p {
 .hero-container {
     width: 50%;
     justify-content: center;
-    /* align-items: center; */
     padding: 30px 0;
 }
 
@@ -234,7 +229,6 @@ p {
     width: 100%;
     justify-content: center;
     align-items: center;
-    /* background-color: #228B22; */
 }
 
 
@@ -246,9 +240,7 @@ p {
 
 .box {
     width: 25%;
-    min-height: 900px;
-    /* background-color: #20B2AA; */
-    /* border: 3px dashed white; */
+    /* min-height: 900px; */
 }
 
 #pink-box {
@@ -260,11 +252,12 @@ p {
 
 .col-70 {
     width: 70%;
+    padding-bottom: 30px;
 }
 
 .signup-section {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     justify-content: space-between;
 }
 
@@ -288,10 +281,11 @@ p {
     column-gap: 30px;
     justify-content: left;
     padding-top: 30px;
+    padding-bottom: 400px;
 }
 
 
-/* Bottoni */
+/* BUTTONS */
 
 .white-btn,
 .black-btn,
