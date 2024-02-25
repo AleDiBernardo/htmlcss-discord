@@ -229,14 +229,14 @@ p {
 .box {
     width: 25%;
     min-height: 900px;
-    background-color: #20B2AA;
-    border: 3px dashed white;
+    /* background-color: #20B2AA; */
+    /* border: 3px dashed white; */
 }
 
 #pink-box {
     width: 30%;
-    background-color: #F08080;
-    border: 3px dashed black;
+    /* background-color: #F08080; */
+    /* border: 3px dashed black; */
 
 }
 
@@ -257,6 +257,16 @@ p {
     padding-top: 30px;
 }
 
+#italy-flag {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.language {
+    justify-content: flex-start;
+}
+
+
 /* Bottoni */
 
 .white-btn,
@@ -269,14 +279,11 @@ p {
     font-size: 1.5rem;
 }
 
-
 .login-btn,
 .white-btn {
     background-color: white;
     color: black;
 }
-
-
 
 .login-btn {
     padding: 10px 20px;
@@ -292,6 +299,10 @@ p {
 
 .blue-btn {
     background-color: #7289DA;
+}
+
+.blue-title {
+    color: #7289DA;
 }
 
 #stars {
