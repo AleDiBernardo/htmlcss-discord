@@ -45,6 +45,12 @@ body {
 
 }
 
+#angle-down {
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
 .mar-auto {
     margin: 0 auto;
 }
@@ -264,6 +270,12 @@ p {
 
 .language {
     justify-content: flex-start;
+}
+
+.social-icon {
+    column-gap: 30px;
+    justify-content: left;
+    padding-top: 30px;
 }
 
 
