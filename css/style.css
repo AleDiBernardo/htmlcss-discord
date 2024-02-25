@@ -308,7 +308,6 @@ p {
     font-size: 1.2rem;
 }
 
-
 .black-btn {
     background-color: #23272A;
     color: white;
@@ -325,4 +324,29 @@ p {
 
 #stars {
     width: 531px;
+}
+
+/* WAVE */
+
+.wave{
+    display: flex;
+    color: #F6F6F6;
+    
+    
+}
+
+.wave-rotate{
+    display: flex;
+    transform: rotate(180deg);
+}
+
+.wave-gray{
+    filter: invert(1) saturate(1) brightness(0.97);
+    width: 100%;
+}
+
+.wave-white{
+    filter: invert(1) saturate(1) brightness(0.97);
+    width: 100%;
+    
 }
